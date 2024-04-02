@@ -75,7 +75,7 @@ resource "rhcs_cluster_rosa_classic" "rosa_sts_cluster" {
   cloud_region         = var.aws_region
   multi_az             = false
   aws_account_id       = data.aws_caller_identity.current.account_id
-  availability_zones   = ["us-east-1a"]
+  availability_zones   = ["ap-northeast-1a"]
   tags                 = var.additional_tags
   version              = var.rosa_openshift_version
   compute_machine_type = var.machine_type
