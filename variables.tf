@@ -77,5 +77,5 @@ variable "vpc_cidr_block" {
 #AWS Info
 variable "aws_region" {
   type    = string
-  default = "us-east-1"
+  default = "ap-northeast-1"
 }
