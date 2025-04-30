@@ -1,4 +1,4 @@
 # Terraform scripts for ROSA Classic
 
-Memos: 
+## Memos: 
 Need at least 5 worker nodes to host RHOAM.
